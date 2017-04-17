@@ -23,6 +23,8 @@ lessc -clean-css src/less/epub.less _assets/ebook/epub.css
 # Copy fonts
 mkdir -p _assets/website/fonts
 cp -R node_modules/font-awesome/fonts/ _assets/website/fonts/fontawesome/
+cp -R node_modules/roboto-font/fonts/Roboto _assets/website/fonts/Roboto
+# cp -R node_modules/roboto-font/css/fonts.css _assets/website/fonts/roboto.css
 
 # Copy icons
 mkdir -p _assets/website/images

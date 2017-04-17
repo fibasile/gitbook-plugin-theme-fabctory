@@ -50,12 +50,10 @@
         {% endif %}
         {{ articles(part.articles, file, config) }}
     {% endfor %}
-
-    <li class="divider"></li>
-
-    <li>
-        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
-            {{ "GITBOOK_LINK"|t }}
-        </a>
-    </li>
+    <div style="position: absolute; left: 5px; bottom: 5px; width: 100%;height:auto; text-align:center;">
+      <div class="logo-container">
+        <img src="./images/logo-black.svg" class="logo-black"/>
+        <img src="./images/logo-white.svg" class="logo-white"/>
+      </div>
+      </div>
 </ul>
